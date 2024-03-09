@@ -10,17 +10,22 @@ Otter,1.0,3.0,Buy,Give one random friend +1  health.,1
 Pig,4.0,1.0,Sell,Gain +1  gold.,1
 Pigeon,3.0,1.0,Sell,Stock one free  Bread Crumbs.,1
 Baku,3.0,2.0,End turn,"If turn number is even, replace ailment on one random friend with +2  health.",1
+Axehandle Hound,3.0,1.0,Start of battle,"If the enemy has multiple copies, deal 10  damage to one of them.",1
 Barghest,1.0,3.0,Start of battle,Make the last perk-less enemy  Spooked.,1
 Tsuchinoko,1.0,2.0,Start of battle,Jump to the front space and gain +1  experience.,1
 Murmel,1.0,2.0,Friend level-up,Gain +1  attack and +2  health until end of battle.,1
 Alchemedes,1.0,4.0,Start of battle,Give the nearest friend ahead +1  mana.,1
 Warf,2.0,2.0,Gains mana,Deal 1  damage to one random enemy.,1
 Bunyip,3.0,1.0,Start of battle,"Gain +1  health for each time you rolled this turn, up to 3.",1
+Sneaky Egg,2.0,4.0,Start of battle,Faint and summon one 4/2  Cracked Egg.,1
+Cuddle Toad,2.0,3.0,Sell,Choose one witch toy that breaks after 2 turns.,1
 Basilisk,2.0,1.0,Start of battle,Transform the nearest pet ahead to a  Rock with +2  health.,1
 Bulldog,1.0,3.0,After attack,Set  attack equal to  health +1.,1
 Chipmunk,3.0,2.0,Sell,Stock one 1-gold copy of this pet's food perk.,1
 Groundhog,2.0,1.0,Faint,Gain +1  Trumpet.,1
+Cone Snail,1.0,2.0,Start of battle,Give the nearest friend behind +2  health.,1
 Goose,2.0,2.0,Start of battle,Remove 1  attack from the first enemy.,1
+Pied Tamarin,1.0,2.0,Faint,Spend 1  Trumpet to deal 3  damage to one random enemy.,1
 Opossum,2.0,3.0,Sell,Give one random Faint pet in the shop +1  attack and +1  health.,1
 Silkmoth,3.0,1.0,Friend ahead hurt,Give it +1  health. Works 2 times per turn.,1
 Magpie,1.0,4.0,End turn,Spend up to 1  gold and gain it back next turn.,1
@@ -40,7 +45,8 @@ Ferret,2.0,1.0,Buy,Choose one level 1 toy from tier 1.,1
 Gecko,3.0,1.0,Start of battle,"If you have a toy, gain +2  health.",1
 Ladybug,1.0,3.0,Friend gained perk,Gain +2  attack until end of battle.,1
 Moth,1.0,3.0,Start of battle,Give front-most friend +2  attack.,1
-Sloth,1.0,1.0,,Believes in the team,1
+Frilled Dragon,1.0,1.0,Start of battle,Gain +1  attack and +1  health per friend with a Faint ability.,1
+Sloth,1.0,1.0,,Sloth has no special ability. Is kind of lame combat-wise. But he truly believes in you!,1
 Crab,4.0,1.0,Start of battle,Copy 50% of  health from the most healthy friend.,2
 Flamingo,3.0,2.0,Faint,Give the two nearest friends behind +1  attack and +1  health.,2
 Hedgehog,3.0,2.0,Faint,Deal 2  damage to all.,2
@@ -51,8 +57,12 @@ Snail,2.0,2.0,End turn,"If you lost last battle, give friends +1  health.",2
 Spider,2.0,2.0,Faint,Summon one level 1 tier 3 pet as a 2/2.,2
 Swan,1.0,2.0,Start of turn,Gain +1  gold.,2
 Worm,1.0,3.0,Start of turn,Stock one 2-gold  Apple.,2
+Ghost Kitten,3.0,3.0,,Take 3 less damage from abilities.,2
+Frost Wolf,1.0,3.0,Faint,Make the first enemy  Cold.,2
 Mothman,3.0,3.0,Faint,Deal 2  damage to one enemy with ailments.,2
+Drop Bear,2.0,2.0,Empty front space,Jump to the front and deal 3  damage to the last enemy in battle.,2
 Jackalope,1.0,3.0,Friend jumped,Deal 2  damage to one random enemy.,2
+Lucky Cat,2.0,3.0,Level-up,Gain +2  attack and +2  health now and +1  gold next turn.,2
 Ogopogo,1.0,2.0,Start of battle,Give front-most friend +1  experience.,2
 Thunderbird,2.0,3.0,Start of battle,Give the front-most friend +3  mana.,2
 Gargoyle,3.0,4.0,Faint,Spend  mana to give the nearest friend behind +1  health per mana.,2
@@ -60,11 +70,20 @@ Bigfoot,2.0,3.0,Faint,Gain one free roll next turn.,2
 Nightcrawler,1.0,1.0,Faint,"Summon one Crawler with 3  attack, and +1  health for each friend summoned this turn.",2
 Sphinx,2.0,5.0,Buy,Choose one level 1 adventurous toy.,2
 Chupacabra,4.0,2.0,Knock out,Give +1  health to one random friend. Triggers 3 times.,2
+Golden Beetle,2.0,3.0,Sell,Gain +1  gold. Triple if attack is at least 10.,2
+African Penguin,1.0,3.0,Buy,Give three random friends +1  attack.,2
+Black Necked Stilt,3.0,2.0,Faint,Gain +2  Trumpets.,2
+Door Head Ant,2.0,2.0,Empty front space,"If in battle, push this to the front and gain +4  health.",2
 Gazelle,2.0,3.0,Start of turn,Gain +1  attack and +1  health until end of battle for each  gold over 10.,2
+Hercules Beetle,3.0,4.0,Sell,Give friends front-to-back +1  attack for each battle this has fought.,2
 Lizard,1.0,3.0,Hurt,Summon one 3/1  Lizard Tail. Works 2 times per turn.,2
+Sea Turtle,2.0,5.0,Friend Summoned,"If in battle, give it +3  health.",2
+Sea Urchin,3.0,2.0,Faint,Remove 5  health from the first enemy.,2
 Squid,5.0,2.0,Faint,Spend 1  Trumpet to give the first enemy  Ink.,2
 Stoat,2.0,2.0,Sell,Summon one level 1 pet from your current tier as a 1/1.,2
+Atlantic Puffin,2.0,3.0,Start of battle,Deal 2  damage for each  Strawberry friend to one random enemy.,2
 Dove,2.0,1.0,Faint,Give two  Strawberry friends +2  attack and +2  health.,2
+Guinea Pig,2.0,3.0,Buy,Summon one 1/1  Guinea Pig.,2
 Iguana,3.0,3.0,Enemy summoned or pushed,Deal 2  attack to it.,2
 Jellyfish,2.0,3.0,Friend level-up,Gain +1  attack and +1  health.,2
 Koala,3.0,2.0,Friend hurt,Give it +1  attack and +1  health. Works 1 time per turn.,2
@@ -73,12 +92,14 @@ Salamander,2.0,4.0,Friend bought,"If it has a Start of battle ability, gain +2  
 Stork,2.0,1.0,Faint,Summon one level 1 pet from the previous shop tier as a 3/2.,2
 Yak,3.0,5.0,End turn,Deal 1  damage to itself and gain +1  attack.,2
 Bat,1.0,2.0,Start of battle,Make one random enemy  Weak.,2
+Beluga Sturgeon,2.0,3.0,Faint,Summon one 2/3  Dolphin with  Rice in the back.,2
 Dromedary,2.0,4.0,Start of turn,Give the two left-most shop pets +1  attack and +1  health.,2
 Frigatebird,2.0,5.0,Friend gained ailment,Give it  Rice. Works 1 time per turn.,2
 Lemur,3.0,3.0,Buy,Choose one level 1 toy from tier 2.,2
 Mandrill,3.0,4.0,Faint,Break friendly tier 2 or lower toy.,2
 Robin,2.0,3.0,Start of battle,Summon one 2/3 level 1  Nest and give it  Egg Perk.,2
 Shrimp,2.0,2.0,Friend sold,Give one random friend +1  health.,2
+Tabby Cat,4.0,2.0,Friendly gained perk,Give two random friends +1  health until end of battle.,2
 Toucan,3.0,3.0,Faint,Copy food perk to the nearest friend behind.,2
 Wombat,3.0,3.0,Start of battle,Copy Faint Ability as level 1 from the highest tier enemy.,2
 Badger,6.0,3.0,Faint,Deal 50% attack  damage to adjacent pets.,3
@@ -91,19 +112,31 @@ Giraffe,1.0,2.0,End turn,Give the nearest friend ahead +1  attack and +1  health
 Ox,1.0,3.0,Friend ahead faints,Gain  Melon perk and +1  attack. Works 1 time per turn.,3
 Rabbit,1.0,2.0,Friendly ate food,Give them +1  health.,3
 Sheep,2.0,2.0,Faint,Summon two 2/2  Rams.,3
+Skeleton Dog,3.0,3.0,Faint,Give one random friend permanent +1  attack and +1  health.,3
 Mandrake,2.0,3.0,Start of Battle,Make one tier 2 or lower Faint enemy  Dazed.,3
+Fur-Bearing Trout,2.0,2.0,Faint,Give  Rambutan perk to the nearest friend behind.,3
+Mana Hound,2.0,5.0,Start of battle,"Give the nearest friend ahead +1  mana for each roll this turn, up to 5 rolls.",3
 Calygreyhound,3.0,4.0,Faint,Spend  mana to remove 1  health per mana from the two most healthy enemies.,3
+Brain Cramp,1.0,2.0,Empty front space,Jump to the front and gain +2  attack and  Melon perk in battle.,3
 Minotaur,1.0,2.0,Friend ahead attacks,Gain +1  attack and +1  health for each of the friend's level.,3
 Wyvern,3.0,4.0,Friendly level-up,Gain 1 extra shop reward.,3
 Ouroboros,2.0,4.0,Roll,Give unfrozen shop pets +1  health until end of battle for each roll this turn.,3
 Griffin,4.0,3.0,Sell,Summon a level 1  Treasure Map that leads to a  Treasure Chest.,3
+Foo Dog,3.0,5.0,Buy,Give future shop pets from the next tier permanent +2  health.,3
+Tree Ent,2.0,5.0,Start of battle,"If this has 6 or less attack, gain  Coconut Perk.",3
 Slime,3.0,3.0,Faint,Summon one 2/2  Slime for each two battles fought.,3
 Pegasus,1.0,3.0,Friend summoned,Give three friends +1  attack until end of battle.,3
+Deer Lord,4.0,3.0,End turn,Knock out the nearest friend ahead and stock one free  Bacon.,3
 Baboon,1.0,2.0,End turn,Give one random friend from the current shop tier +1  attack and + 2  health.,3
+Betta Fish,2.0,3.0,Faint,Give the nearest friend behind +4  attack and +2  health.,3
 Flea,4.0,2.0,Faint,Make the most healthy enemy  Weak.,3
+Flying Fish,3.0,2.0,Friend summoned,"If in battle, give it +2  experience. Works 2 times per turn.",3
 Guineafowl,2.0,4.0,Hurt,Gain +2  Trumpets.,3
 Meerkat,1.0,3.0,Start of battle,Give adjacent friends +1  attack for every 3  Gold spent this turn.,3
+Musk Ox,2.0,4.0,Friend ahead faints,Gain +1  attack and +2  health until end of battle.,3
 Osprey,3.0,3.0,Faint,Summon one 2/1  Groundhog.,3
+Royal Flycatcher,2.0,4.0,Enemy summoned,Deal 3  damage to one random enemy.,3
+Surgeon Fish,3.0,3.0,Before attack,Spend 2  Trumpets to give the nearest friend behind +6  health.,3
 Weasel,3.0,4.0,Faint,Gain +1  Gold on next turn.,3
 Anteater,3.0,2.0,Faint,Summon one 1/1 level 3  Ant.,3
 Capybara,2.0,5.0,Roll,Give unfrozen shop pets +2  attack and +1  health.,3
@@ -114,13 +147,19 @@ Okapi,2.0,3.0,Roll,Gain +1  attack and +1  health until end of battle. Works 5 t
 Pug,5.0,2.0,Start of battle,Give the nearest friend ahead +1  experience.,3
 Toad,3.0,3.0,Enemy hurt,Make it  weak. Works 2 times per battle.,3
 Woodpecker,4.0,3.0,Start of battle,Deal 2  damage to the nearest two pets ahead.,3
+Flying Squirrel,4.0,3.0,Friendly toy broke,"Re-summon the Toy, but its level can max be kept at 1.",3
+Gold Fish,1.0,5.0,End turn,Increase sell value by 1  Gold.,3
 Hare,3.0,4.0,Before attack,Copy food perk from one random enemy. Works 1 time per battle.,3
+Hatching Chick,2.0,2.0,End turn,Give the nearest friend ahead +3  attack and +3  health until end of battle.,3
+Hoopoe Bird,3.0,2.0,Faint,Deal 2  damage to the first and last enemy.,3
 Mole,2.0,3.0,Faint,Remove the two nearest friendly perks to summon one 6/6 Mole.,3
 Owl,1.0,2.0,Start of turn,Summon one level 1  Mouse.,3
 Pangolin,2.0,5.0,Faint,"If you have a toy, give the nearest friend behind +5  health.",3
 Puppy,3.0,3.0,Buy,Choose one level 1 toy from tier 3.,3
+Tropical Fish,2.0,4.0,End turn,Give adjacent friends +1  health.,3
 Aardvark,2.0,3.0,Enemy summoned,Gain +2  attack and +2  health.,3
 Bear,3.0,5.0,Faint,Give  Honey Perk to all pets within one space.,3
+Emperor Tamarin,3.0,3.0,Sell,Give 33%  attack and  health to the leftmost shop pet.,3
 Porcupine,2.0,6.0,Hurt,Deal 3  damage directly back.,3
 Wasp,2.0,2.0,Shop tier upgraded,Gain +50%  attack.,3
 Bison,4.0,4.0,End turn,"If this has a level 3 friend, gain +1  attack and +2  health.",4
@@ -136,20 +175,27 @@ Whale,4.0,10.0,Start of battle,Swallow the nearest friend ahead and summon a new
 Unicorn,2.0,4.0,Friend gained ailment,Replace it with permanent +2  attack and +2  health. Works 1 time per turn.,4
 Kraken,3.0,6.0,Start of battle,Remove 20%  health from ALL other pets.,4
 Visitor,5.0,4.0,Faint,Make ALL pets within one space  Exposed.,4
+Tiger Bug,4.0,4.0,Empty front space,Jump to the front and deal 3  damage to the two first enemies.,4
 Tatzelwurm,3.0,4.0,Friend ahead faints,Deal 2  damage for each of its level to one random enemy.,4
 Cyclops,4.0,5.0,Friend level-up,Give it +2  mana and +1  experience. Works 1 time per turn.,4
 Chimera,3.0,3.0,Faint,Spend  mana to summon one  pet with +1  attack and +1  health per mana.,4
 Roc,4.0,4.0,Start of battle,Give one random friend ahead +2  mana. Triggers 3 times.,4
+Worm of Sand,3.0,5.0,Roll 6 times,Give the two highest tier friends +1  attack and +1  health.,4
 Abomination,6.0,3.0,End turn,Swallow and copy the left-most Start of battle shop pet until end of battle.,4
 Fairy,1.0,1.0,Buy,Choose one level 1 wondrous toy.,4
 Rootling,1.0,5.0,End turn,Give two friends with less health than this +1  attack and +1  health.,4
 Anubis,3.0,4.0,Start of battle,Activate tier 2 or lower Faint friends front-to-back.,4
+Old Mouse,1.0,2.0,End turn,Summon one random level 1 nostalgic toy.,4
 Hippocampus,2.0,4.0,Friend gains health,Give it +1  attack. Double in battle.,4
 Cockatoo,4.0,2.0,Buy,Give one random Faint friend +2  attack and +2  health.,4
 Cuttlefish,8.0,4.0,Faint,Give the last enemy  Ink.,4
 Falcon,5.0,5.0,Knock out,Summon one 3/3 level 1 copy of it. Works 3 times per battle.,4
 Manatee,2.0,11.0,End turn,Take 5  damage and give the nearest friend ahead +2  attack and +1  health.,4
+Manta Ray,5.0,6.0,End turn,"If there is an empty space, gain +2  gold next turn.",4
+Poison Dart Frog,5.0,2.0,Friend ahead faints,Deal 4  damage to the highest health enemy.,4
+Saiga Antelope,4.0,3.0,Friend faints,Gain +1  trumpet.,4
 Sealion,3.0,6.0,End turn,Give friends behind +1  attack and friends ahead +1  health.,4
+Secretary Bird,2.0,5.0,Two friends faint,Give the nearest friend ahead +3  attack and +3  health.,4
 Slug,4.0,4.0,Faint,Summon one 2/2  Smaller Slug that summons one 1/1  Smallest Slug.,4
 Vaquita,3.0,4.0,Faint,Gain +50%  trumpets.,4
 Blobfish,2.0,6.0,Faint,Give the nearest friend behind +2  attack and +2  health and +1  experience.,4
@@ -160,6 +206,7 @@ Hawk,4.0,3.0,Start of battle,Deal 7  damage to the opposite enemy.,4
 Orangutan,3.0,6.0,End turn,Give the lowest health friendly pet +4  health.,4
 Pelican,2.0,3.0,End turn & Start of battle,Give one random  Strawberry friend +2  attack and +1  health.,4
 Platypus,2.0,2.0,Sell & Faint,Summon one 3/3 level 1  Duck and  Beaver.,4
+Praying Mantis,7.0,2.0,Start of turn,Knock out adjacent friends and gain +2  attack and +2  health.,4
 Starfish,3.0,4.0,Friend sold,"If it had a Sell ability, give +1  attack and +1  health to one random friend.",4
 Buffalo,4.0,4.0,Three friends sold,Gain +2  attack and +2  health.,4
 Caterpillar,1.0,1.0,Start of turn,Gain +1  experience.,4
@@ -170,6 +217,7 @@ Llama,2.0,5.0,End turn,"If there is an empty space, gain +1  attack and +2  heal
 Lobster,3.0,3.0,Friend summoned,"If outside battle, gain +2  attack and +2  health.",4
 Microbe,1.0,1.0,Faint,Make all pets  weak.,4
 Tahr,5.0,3.0,Faint,Give  Chili Perk to the nearest friend behind.,4
+Whale Shark,1.0,4.0,Gain perk or ailment,Remove it and gain +2  attack and +2  health.,4
 Dragonfly,1.0,1.0,End turn,Give +1  attack and +1  health to one friend of each level.,4
 Jerboa,1.0,3.0,Eats  Apple,Give friends +1  attack and +1  health. Works 2 times per turn.,4
 Lynx,5.0,3.0,Start of battle,Deal  damage to one random enemy equal to the sum of all friendly levels.,4
@@ -184,9 +232,15 @@ Scorpion,1.0,1.0,Summoned,Gain  Peanut perk.,5
 Seal,3.0,8.0,Eats food,Give three random friends +1  attack.,5
 Shark,2.0,2.0,Friend faints,Gain +2  attack and +2  health.,5
 Turkey,3.0,4.0,Friend summoned,Give it +3  attack and +2  health.,5
+Red Dragon,3.0,7.0,Start of Battle,Make the last enemy  Crisp.,5
+Vampire Bat,2.0,5.0,Enemy gained ailment,Deal 3  damage to it and gain damage as  health. Works 2 times per battle.,5
+Loveland Frogman,1.0,5.0,Friend jumped,Give it permanent +2  attack and +2  health.,5
+Salmon of Knowledge,5.0,5.0,Start of battle,Give the two front-most friends AND enemies +2  experience.,5
+Jersey Devil,5.0,4.0,Friend Summoned,"Give it +1  attack and +1  health for each level 3 pet sold this game, up to 5 sold.",5
 Pixiu,4.0,5.0,Faint,Spend 6  mana to gain +3  gold next turn.,5
 Kitsune,3.0,7.0,Friend Faints,transfer all friendly  mana +2 to the nearest friend ahead.,5
 Nessie,4.0,6.0,Faint,"Summon one  Nessie with +2  attack and +2  health for each roll this turn, up to 7.",5
+Bad Dog,3.0,3.0,Buy,Choose one level 1 toy that brings doom and chaos!,5
 Werewolf,7.0,7.0,Start of battle,"If turn number is even, gain +100%  attack and +100%  health.",5
 Boitata,2.0,9.0,Before Attack,Make the target  Crisp. Works 1 time per battle.,5
 Kappa,4.0,5.0,Faint,Summon one random 14/16 pet from tier 3 up front for you and the opponent.,5
@@ -194,15 +248,24 @@ Mimic,3.0,6.0,Three friends faint,Gain +1  gold on next turn.,5
 Nurikabe,5.0,6.0,,Takes 4 less damage. Works 3 times per turn.,5
 Tandgnost,5.0,5.0,Buy,Give future  Tandgrisner +2  attack and +2  health.,5
 Tandgrisner,5.0,5.0,Buy,Give future  Tandgnost +2  attack and +2  health.,5
+Beluga Whale,3.0,8.0,Eats food,Swallow the left-most shop pet and release it as level 1 after fainting.,5
+Blue Ringed Octopus,2.0,4.0,Buy,Give friends +1  attack and +1  health.,5
 Crane,6.0,5.0,Friend ahead hurt,Give it  Melon perk and +5  attack. Works 1 time per turn.,5
+Egyptian Vulture,7.0,4.0,Knock out,Activate ability on the nearest Faint friend behind. Works 1 time per battle.,5
 Emu,3.0,4.0,Empty front space,Push nearest friend ahead to the front and give it +4  health in battle.,5
+Fire Ant,6.0,4.0,Faint,Give  attack to the highest tier friend.,5
 Macaque,2.0,2.0,Start of battle,Summon one 12/12  Orangutan with the same food perk as this.,5
+Nurse Shark,4.0,6.0,Faint,Spend up to 6  trumpets and deal triple as  damage to one random enemy.,5
 Nyala,3.0,4.0,Faint,Gain +8  trumpets.,5
+Silver Fox,3.0,6.0,Before attack,Gain +1  gold on next turn. Works 3 times per battle.,5
 Wolf,4.0,4.0,Faint,Summon three 3/2  Pigs.,5
 Fox,6.0,4.0,End turn,Steal the right-most shop food.,5
 Hamster,2.0,4.0,Roll,Gain +1  gold. Works 2 times per turn.,5
 Lion,6.0,6.0,Start of battle,"If this is your highest tier pet, gain +50%  attack and  health.",5
+Polar Bear,4.0,8.0,Start of turn,Give one random frozen shop pet +4  attack and +4  health.,5
 Shoebill,2.0,4.0,End turn,Give  Strawberry friends +1  attack and +2  health.,5
+Siberian Husky,4.0,3.0,End turn,Give friends with no food perks +1  attack and +1  health.,5
+Sword Fish,5.0,5.0,Start of battle,Deal 100% attack  damage to the most healthy enemy and itself.,5
 Triceratops,5.0,6.0,Hurt,Give one random friend +3  attack and +3  health.,5
 Vulture,4.0,3.0,Two friends faint,Deal 4  damage to one random enemy.,5
 Zebra,3.0,5.0,Buy & Sell,Give one random friend +2  attack and +2  health.,5
@@ -213,6 +276,8 @@ Goat,4.0,6.0,Friend bought,Gain +1  gold. Works 2 times per turn.,5
 Mosasaurus,5.0,6.0,Toy broke,Give adjacent friends +2  attack and +3  health.,5
 Panther,3.0,5.0,,Perks are two times stronger on this,5
 Poodle,2.0,2.0,End turn,Give +1  attack and +1  health to one friend of each tier.,5
+Snapping Turtle,4.0,5.0,Faint,Give  Skewer Perk to the nearest friend behind.,5
+Sting Ray,4.0,6.0,Buy,Choose one level 1 toy from tier 5.,5
 Stonefish,7.0,4.0,Faint,Deal attack  damage directly back to whoever knocked this out.,5
 Alpaca,3.0,7.0,Friend summoned,Give it +1  experience. Works 1 time per turn.,5
 Hyena,5.0,5.0,Start of battle,Swap attack and health of ALL pets.,5
@@ -231,29 +296,41 @@ Wolverine,5.0,4.0,,Adjacent friendly abilities deal 3  damage extra.,6
 Manticore,7.0,4.0,,Enemy ailments are two times worse.,6
 Phoenix,8.0,8.0,Faint,"Make ANY three random pets  Crisp, then summon one 6/6  Young Phoenix.",6
 Quetzalcoatl,2.0,8.0,End Turn,Give one random tier 3 or lower friend +2  experience.,6
+Team Spirit,3.0,4.0,Friend level-up,Give friends +1  attack and +2  health.,6
 Sleipnir,8.0,5.0,Start of battle,Give the front-most friend +1  mana for each 2 attack this has.,6
+Sea Serpent,6.0,6.0,Faint,Spend  mana to deal 2  damage per mana to the most healthy enemy.,6
 Yeti,5.0,7.0,End Turn,Roll three times while freezing duplicate pets.,6
 Cerberus,8.0,8.0,Empty front space,Summon one 8/8  Fire Pup up front. Works 1 time per turn.,6
 Hydra,10.0,6.0,Faint,Summon one 5/5  Head for each 10 attack this has.,6
 Behemoth,12.0,12.0,End Turn,Gain +2  attack and +2  health. Attack and health can go up to 100!,6
+Great One,7.0,13.0,Summoned,Deal 6  damage to ALL other pets.,6
 Leviathan,6.0,10.0,End turn,Summon four 10/10  Fishes.,6
+Questing Beast,7.0,9.0,Sell,Choose one level 1 king toy.,6
 Cockatrice,5.0,7.0,Start of battle,Transform the back-most level 1 or lower enemy to a  Rock.,6
+Bird of Paradise,3.0,3.0,Spend 7 gold,Give three random friends +1  attack and +1  health.,6
 Catfish,3.0,3.0,Start of turn,Spend 1  gold to activate Buy ability on the nearest friend ahead.,6
 Cobra,12.0,6.0,Friend ahead attacks,Deal 20% attack  damage to one random enemy.,6
+German Shepherd,10.0,4.0,Friend summoned,Give 25% of  attack to it until end of battle.,6
+Grizzly Bear,6.0,6.0,Five friendly attacks,Deal 6  damage to two random enemies.,6
+Highland Cow,4.0,12.0,Start of battle,Gain +1  trumpet for each 3 health this has.,6
 Oyster,2.0,10.0,Sell,Gain +3  gold.,6
 Pteranodon,5.0,3.0,Friend faints,Re-summon it behind this as a 1/1. Works 1 time per turn.,6
 Warthog,9.0,6.0,Faint,Give random friends +1  attack and +1  health for every 3 attack this has.,6
 Wildebeest,8.0,6.0,Before attack,Spend 4  trumpets to gain  Coconut Perk. Works 1 time per battle.,6
+Hammerhead Shark,5.0,5.0,Start of turn,"If this has a level 3 friend, gain +3  gold.",6
 Komodo,6.0,6.0,End turn,Give friends ahead +1  attack and +1  health and then shuffle their positions.,6
 Orca,4.0,8.0,Faint,Summon one random pet with Faint ability from any pack.,6
 Ostrich,2.0,8.0,End turn,Gain +1  attack and +1  health for every tier 5 pet or higher in the shop.,6
 Piranha,10.0,4.0,Hurt,Give friends +3  attack.,6
 Reindeer,6.0,4.0,Before attack,Gain  Melon. Works 1 time per battle.,6
+Sabertooth Tiger,6.0,6.0,Hurt,Summon one random tier 1 pet as a 5/5.,6
 Spinosaurus,4.0,8.0,Friend faints,Give one random friend +3  attack and +2  health.,6
 Stegosaurus,3.0,8.0,Start of battle,Give one random friend without held food +1  attack and +1  health until end of battle. Multiply with turn number.,6
 Velociraptor,3.0,2.0,Start of battle,Give  Coconut to one random  Strawberry friend.,6
 Anglerfish,7.0,4.0,Buy,Choose one free pet from your last opponent to stock.,6
+Elephant Seal,3.0,9.0,Gain perk,Give friends +1  attack and +1  health. Double in battle.,6
 Lionfish,8.0,4.0,Faint,Deal 3  damage to one random enemy. Repeat for each 10  attack this has.,6
+Mantis Shrimp,9.0,3.0,Start of battle,Deal 10  damage to the first enemy.,6
 Mongoose,4.0,3.0,Buy,Choose one level 1 toy from tier 6.,6
 Octopus,8.0,8.0,After attack,Deal 6  damage to one random enemy.,6
 Puma,6.0,5.0,,Friendly toy repeats its ability as level 1.,6
@@ -262,3 +339,4 @@ Tyrannosaurus,6.0,4.0,End turn,Give two tier 5 friends or higher +2  attack and 
 Lioness,4.0,5.0,End turn,Give current and future shop pets +2  attack and +2  health.,6
 Tapir,4.0,3.0,Faint,Summon one level 1 copy of a random friendly pet. Except other Tapirs!,6
 Walrus,7.0,5.0,Faint,Give one random friend  Peanuts.,6
+White Tiger,4.0,3.0,Start of battle,Make the nearest friend behind +3  experience.,6
